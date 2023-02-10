@@ -1,0 +1,53 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin-top: 80px;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $color-grey800;
+}
+
+.section {
+  padding: 0 0 50px 0;
+}
+
+.btn {
+  background-color: $color-green;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
+.btn-secondary {
+  background-color: $color-grey800;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+.container {
+  max-width: $desktop-l;
+  padding: 0 5px;
+  margin: 0 auto;
+
+  @media (max-width: $desktop) {
+    max-width: $laptop;
+  }
+}

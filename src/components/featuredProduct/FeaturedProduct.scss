@@ -1,0 +1,168 @@
+@import "/public/variables.scss";
+@import "/public/mixin.scss";
+@import "/public/critical.scss";
+
+.featured-product {
+  &--bg {
+    background-image: url("/src/assets/trends.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  min-height: 615px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("/src/assets/visual-flower.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+
+  @media (max-width: $desktop) {
+    flex-direction: column;
+  }
+
+  .featured-product__content {
+    margin-left: 96px;
+
+    @media (max-width: $desktop) {
+      margin: 0 auto;
+      margin-bottom: 127px;
+    }
+    h2 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 18px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 107.9%;
+      letter-spacing: 0.01em;
+      color: $color-green;
+    }
+
+    a {
+      @include linkReset;
+      width: 241px;
+      text-decoration: none;
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 97.9%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #1f2937;
+    }
+  }
+}
+.featered-product__img {
+  display: flex;
+
+  @media (max-width: $desktop) {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  button {
+    border-color: transparent;
+    background-color: $color-grey700;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 61px;
+
+    cursor: pointer;
+
+    @media (max-width: $desktop) {
+      margin-top: 28px;
+    }
+    &:hover {
+      background-color: $color-green;
+    }
+  }
+
+  .featered-product__img-content--bg-aroma {
+    background-image: url("/img/aroma-bg.png");
+    width: 100%;
+    height: 91px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+  }
+
+  .featered-product__img-content--bg-lux {
+    background-image: url("/src/assets/lux-bg.png");
+    width: 100%;
+    height: 91px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+  }
+}
+
+.featered-product__img-card {
+  position: relative;
+}
+
+.featered-product__img-content {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 10px;
+
+  .featered-product__img-content-header {
+    display: flex;
+  }
+  h4 {
+    @include headerText(H4);
+    color: $color-grey800;
+  }
+
+  span {
+    margin-top: 11px;
+    margin-left: 5px;
+    width: 18px;
+    height: 9px;
+    background: $color-green;
+    border-radius: 8px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 97.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+  .featered-product__img-content-subtitle {
+    display: flex;
+
+    p {
+      @include headerText(large-Medium-Regular);
+      color: $color-grey500;
+      text-align: left;
+      max-width: 278px;
+      padding-right: 61px;
+    }
+
+    a {
+      @include linkReset;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "/public/variables.scss";
+@import "/public/mixin.scss";
+@import "/public/critical.scss";
+
+.header {
+  .header__inner {
+    position: fixed;
+    background-color: $color-grey800;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__nav {
+    @include listReset;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+
+    a {
+      @include headerText(large-Small-SemiBold);
+      @include linkReset;
+      color: $color-white;
+      display: inline-flex;
+      margin: 0 5px;
+    }
+  }
+}

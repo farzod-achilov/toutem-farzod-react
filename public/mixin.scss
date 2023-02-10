@@ -1,0 +1,152 @@
+@mixin headerText($heading: none) {
+   margin: 0;
+   padding: 0;
+   @if $heading == none {
+     margin: 0;
+     padding: 0;
+   } @else if $heading == H1 {
+     /* Heading / H1 */
+     font-family: "Roboto", sans-serif;
+     font-weight: 900;
+     font-size: 40px;
+     font-style: normal;
+     line-height: 48px;
+   } @else if $heading == H2 {
+     /* Heading / H2 */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 100%;
+   } @else if $heading == H3 {
+     /* Heading / H3 */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 135%;
+   } @else if $heading == H4 {
+     /* Heading / H4 */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 140%;
+   } @else if $heading == H5 {
+     /* Heading / H5 */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 135%;
+     letter-spacing: 0.3px;
+   } @else if $heading == H6 {
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 150%;
+     letter-spacing: 0.3px;
+   } @else if $heading == Xlarge-Medium {
+     /* Body XLarge (Medium) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 125%;
+     letter-spacing: 0.3px;
+   } @else if $heading == large-SemiBold {
+     /* Body Large (SemiBold) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 150%;
+   } @else if $heading == large-Medium {
+     /* Body Large (Medium) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 150%;
+   } @else if $heading == large-Regular {
+     /* Body Large (Regular) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+   } @else if $heading == large-Medium-Bold {
+     /* Body Medium (Bold) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 140%;
+     letter-spacing: 0.3px;
+   } @else if $heading == large-Medium-SemiBold {
+     /* Body Medium (SemiBold) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 140%;
+   } @else if $heading == large-Medium-Medium {
+     /* Body Medium (Medium) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 140%;
+   } @else if $heading == large-Medium-Regular {
+     /* Body Medium (Regular) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 140%;
+     text-align: right;
+   } @else if $heading == large-Small-Bold {
+     /* Body Small (Bold) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 12px;
+     line-height: 135%;
+     letter-spacing: 0.3px;
+   } @else if $heading == large-Small-SemiBold {
+     /* Body Small (SemiBold) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 135%;
+   } @else if $heading == large-Small-Medium {
+     /* Body Small (Medium) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 135%;
+   } @else if $heading == large-Small-Regular {
+     /* Body Small (Regular) */
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 135%;
+   }
+ }
+ 
+ @mixin listReset {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ 
+ @mixin linkReset {
+   display: inline-block;
+   text-decoration: none;
+   color: transparent;
+ }
+ 
