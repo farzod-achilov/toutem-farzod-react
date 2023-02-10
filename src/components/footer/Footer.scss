@@ -1,0 +1,53 @@
+@import "/public/variables.scss";
+@import "/public/mixin.scss";
+@import "/public/critical.scss";
+
+.footer {
+  padding: 38px 100px;
+  background-color: $color-grey700;
+
+  @media (max-width: $desktop) {
+    padding: 23px 86px;
+  }
+
+  p {
+    @include headerText(large-Small-Regular);
+    color: $color-grey400;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 125px;
+  }
+
+  .footer__logo {
+    display: flex;
+
+    nav {
+      padding-top: 10px;
+      display: flex;
+      margin: 0 auto;
+      text-align: center;
+      gap: 50px;
+      padding-bottom: 40px;
+
+      @media (max-width: $desktop) {
+        flex-direction: column;
+        margin-left: 100px;
+      }
+    }
+
+    .footer__nav {
+      @include listReset;
+
+      h3 {
+        @include headerText(large-Small-SemiBold);
+        color: $color-green;
+      }
+
+      a {
+        @include linkReset;
+        @include headerText(large-Small-Medium);
+        color: $color-grey400;
+      }
+    }
+  }
+}
