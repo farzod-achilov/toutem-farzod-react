@@ -9,7 +9,7 @@ export default function Header() {
       <div className="header__inner">
         <h1 className="header__logo">
           <a href="/">
-            <img src="/src/assets/Logo.svg" alt="Logo" width="102px" height="24px" />
+            <img src="/Logo.svg" alt="Logo" width="102px" height="24px" />
             <span className="visually-hidden">eCommerce</span>
           </a>
         </h1>
@@ -22,8 +22,8 @@ export default function Header() {
           </ul>
         </nav>
         <div className="header__img">
-          <img src="/src/assets/shop.png" alt="shop" />
-          <img src="/src/assets/lupa.png" alt="lupa" />
+          <img src="/shop.png" alt="shop" />
+          <img src="/lupa.png" alt="lupa" />
         </div>
       </div>
     </div>
