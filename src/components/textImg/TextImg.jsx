@@ -15,7 +15,7 @@ export default function TextImg() {
             <a className="btn-secondary" href="#">SHOP ALL</a>
           </div>
           <div className="img-text__img">
-            <img src="/src/assets/img-text-img.png" alt="img-text-img" />
+            <img src="/img-text-img.png" alt="img-text-img" />
           </div>
         </div>
       </div>

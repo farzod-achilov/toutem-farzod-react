@@ -11,7 +11,7 @@ export default function Blog() {
           <ul class="blog__inner">
             <li class="blog__card">
               <div class="blog__card-img">
-                <img src="/src/assets/card-img.png" alt="card-img" />
+                <img src="/card-img.png" alt="card-img" />
               </div>
               <div class="blog__card-content">
                 <h3>How to create your own essential oil diffuser blends</h3>
@@ -23,7 +23,7 @@ export default function Blog() {
             </li>
             <li class="blog__card">
               <div class="blog__card-img">
-                <img src="/src/assets/card-img.png" alt="card-img" />
+                <img src="/card-img.png" alt="card-img" />
               </div>
               <div class="blog__card-content">
                 <h3>How to create your own essential oil diffuser blends</h3>
@@ -35,7 +35,7 @@ export default function Blog() {
             </li>
             <li class="blog__card">
               <div class="blog__card-img">
-                <img src="/src/assets/card-img.png" alt="card-img" />
+                <img src="/card-img.png" alt="card-img" />
               </div>
               <div class="blog__card-content">
                 <h3>How to create your own essential oil diffuser blends</h3>

@@ -4,7 +4,7 @@
 
 .featured-product {
   &--bg {
-    background-image: url("/src/assets/trends.png");
+    background-image: url("/trends.png");
     background-position: top left;
     background-repeat: no-repeat;
   }
@@ -19,7 +19,7 @@
   justify-content: space-between;
   align-items: center;
 
-  background-image: url("/src/assets/visual-flower.png");
+  background-image: url("/visual-flower.png");
   background-position: top left;
   background-repeat: no-repeat;
 
@@ -103,7 +103,7 @@
   }
 
   .featered-product__img-content--bg-lux {
-    background-image: url("/src/assets/lux-bg.png");
+    background-image: url("/lux-bg.png");
     width: 100%;
     height: 91px;
     background-repeat: no-repeat;

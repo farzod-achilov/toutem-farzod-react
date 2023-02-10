@@ -9,7 +9,7 @@ export default function Footer() {
       <div class="footer">
         <div class="footer__logo">
           <a href="/">
-            <img src="/src/assets/Logo.svg" alt="Logo" />
+            <img src="/Logo.svg" alt="Logo" />
           </a>
           <nav>
             <ul class="footer__nav">

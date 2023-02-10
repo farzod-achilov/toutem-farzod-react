@@ -13,7 +13,7 @@ export default function FeaturedProduct() {
           </div>
           <div className="featered-product__img">
             <div className="featered-product__img-card">
-              <img src="/src/assets/aroma-diffuser.png" alt="aroma-diffuser" />
+              <img src="/aroma-diffuser.png" alt="aroma-diffuser" />
               <div
                 className="featered-product__img-content featered-product__img-content--bg-aroma"
               >
@@ -56,7 +56,7 @@ export default function FeaturedProduct() {
             </div>
             <div className="featered-product__img-card">
               <img
-                src="/src/assets/lux-aroma-diffuser.png"
+                src="/lux-aroma-diffuser.png"
                 alt="lux-aroma-diffuser"
               />
               <div
@@ -123,7 +123,7 @@ export function FeaturedProduct2() {
           </div>
           <div class="featered-product__img">
             <div class="featered-product__img-card">
-              <img src="/src/assets/basket.png" alt="basket" />
+              <img src="/basket.png" alt="basket" />
               <div
                 class="featered-product__img-content featered-product__img-content--bg-aroma"
               >
@@ -165,7 +165,7 @@ export function FeaturedProduct2() {
               </div>
             </div>
             <div class="featered-product__img-card">
-              <img src="/src/assets/uplift.png" alt="uplift" />
+              <img src="/uplift.png" alt="uplift" />
               <div
                 class="featered-product__img-content featered-product__img-content--bg-lux"
               >

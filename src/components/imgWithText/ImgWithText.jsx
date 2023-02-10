@@ -9,7 +9,7 @@ export default function ImgWithText() {
         <div className="img-with-text">
           <div className="img-with-text__inner">
             <div className="img-with-text__img">
-              <img src="/src/assets/img-with-text-img.png" alt="img-with-text" />
+              <img src="/img-with-text-img.png" alt="img-with-text" />
             </div>
             <div className="img-with-text__content">
               <h2>Improve your well-being with Aromatherapy</h2>

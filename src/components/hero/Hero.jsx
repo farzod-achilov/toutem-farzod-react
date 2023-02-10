@@ -18,7 +18,7 @@ export default function Hero() {
          </div>
          <div className="hero__img">
            <img
-             src="/src/assets/hero-img.png"
+             src="/hero-img.png"
              width="720px"
              height="520px"
              alt="hero-img"
