@@ -1,6 +1,5 @@
-import React from 'react'
-import "./FeaturedProduct.scss"
-import "/public/critical.scss";
+import React from "react";
+import "./FeaturedProduct.scss";
 
 export default function FeaturedProduct() {
   return (
@@ -9,14 +8,14 @@ export default function FeaturedProduct() {
         <div className="featured-product">
           <div className="featured-product__content">
             <h2>Bestsellers</h2>
-            <a href="#" className="btn">SHOP ALL</a>
+            <a href="#" className="btn">
+              SHOP ALL
+            </a>
           </div>
           <div className="featered-product__img">
             <div className="featered-product__img-card">
               <img src="/aroma-diffuser.png" alt="aroma-diffuser" />
-              <div
-                className="featered-product__img-content featered-product__img-content--bg-aroma"
-              >
+              <div className="featered-product__img-content featered-product__img-content--bg-aroma">
                 <div className="featered-product__img-content-header">
                   <h4>Aroma Diffuser</h4>
                   <span>$20</span>
@@ -25,8 +24,8 @@ export default function FeaturedProduct() {
                   <p>
                     Original product comes in three styles of color, usb charger
                   </p>
-                  <a href="#"
-                    ><svg
+                  <a href="#">
+                    <svg
                       width="45"
                       height="50"
                       viewBox="0 0 45 50"
@@ -55,13 +54,8 @@ export default function FeaturedProduct() {
               </div>
             </div>
             <div className="featered-product__img-card">
-              <img
-                src="/lux-aroma-diffuser.png"
-                alt="lux-aroma-diffuser"
-              />
-              <div
-                className="featered-product__img-content featered-product__img-content--bg-lux"
-              >
+              <img src="/lux-aroma-diffuser.png" alt="lux-aroma-diffuser" />
+              <div className="featered-product__img-content featered-product__img-content--bg-lux">
                 <div className="featered-product__img-content-header">
                   <h4>Lux Aroma Diffuser</h4>
                   <span>$15</span>
@@ -71,8 +65,8 @@ export default function FeaturedProduct() {
                     Beautiful decorative object, perfumes the space with your
                     favorite fragrance.
                   </p>
-                  <a href="#"
-                    ><svg
+                  <a href="#">
+                    <svg
                       width="45"
                       height="50"
                       viewBox="0 0 45 50"
@@ -109,7 +103,7 @@ export default function FeaturedProduct() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export function FeaturedProduct2() {
@@ -119,14 +113,14 @@ export function FeaturedProduct2() {
         <div class="featured-product featured-product--bg">
           <div class="featured-product__content">
             <h2>Trends</h2>
-            <a href="#" class="btn">SHOP ALL</a>
+            <a href="#" class="btn">
+              SHOP ALL
+            </a>
           </div>
           <div class="featered-product__img">
             <div class="featered-product__img-card">
               <img src="/basket.png" alt="basket" />
-              <div
-                class="featered-product__img-content featered-product__img-content--bg-aroma"
-              >
+              <div class="featered-product__img-content featered-product__img-content--bg-aroma">
                 <div class="featered-product__img-content-header">
                   <h4>Basket INNER BEAUTY</h4>
                   <span>$64</span>
@@ -135,8 +129,8 @@ export function FeaturedProduct2() {
                   <p>
                     Original product comes in three styles of color, usb charger
                   </p>
-                  <a href="#"
-                    ><svg
+                  <a href="#">
+                    <svg
                       width="45"
                       height="50"
                       viewBox="0 0 45 50"
@@ -166,9 +160,7 @@ export function FeaturedProduct2() {
             </div>
             <div class="featered-product__img-card">
               <img src="/uplift.png" alt="uplift" />
-              <div
-                class="featered-product__img-content featered-product__img-content--bg-lux"
-              >
+              <div class="featered-product__img-content featered-product__img-content--bg-lux">
                 <div class="featered-product__img-content-header">
                   <h4>Uplift Handcrafted Soap Bar</h4>
                   <span>$7</span>
@@ -178,8 +170,8 @@ export function FeaturedProduct2() {
                     Beautiful decorative object, perfumes the space with your
                     favorite fragrance.
                   </p>
-                  <a href="#"
-                    ><svg
+                  <a href="#">
+                    <svg
                       width="45"
                       height="50"
                       viewBox="0 0 45 50"
@@ -216,5 +208,5 @@ export function FeaturedProduct2() {
         </div>
       </div>
     </section>
-  )
+  );
 }

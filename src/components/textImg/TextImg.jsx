@@ -1,10 +1,9 @@
-import React from 'react'
-import "./TextImg.scss"
-import "/public/critical.scss";
+import React from "react";
+import "./TextImg.scss";
 
 export default function TextImg() {
   return (
-   <section className="section">
+    <section className="section">
       <div className="container">
         <div className="img-text">
           <div className="img-text__content">
@@ -12,7 +11,9 @@ export default function TextImg() {
               Our luxury soaps are 100% natural providing nourishing benefits
               for your skin.
             </h2>
-            <a className="btn-secondary" href="#">SHOP ALL</a>
+            <a className="btn-secondary" href="#">
+              SHOP ALL
+            </a>
           </div>
           <div className="img-text__img">
             <img src="/img-text-img.png" alt="img-text-img" />
@@ -20,5 +21,5 @@ export default function TextImg() {
         </div>
       </div>
     </section>
-  )
+  );
 }

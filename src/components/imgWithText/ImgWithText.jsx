@@ -1,10 +1,9 @@
-import React from 'react'
-import "./ImgWithText.scss"
-import "/public/critical.scss";
+import React from "react";
+import "./ImgWithText.scss";
 
 export default function ImgWithText() {
   return (
-   <section className="section">
+    <section className="section">
       <div className="container">
         <div className="img-with-text">
           <div className="img-with-text__inner">
@@ -18,11 +17,13 @@ export default function ImgWithText() {
                 to your daily tasks. We've got tons of fun diffuser blends, with
                 scents to suit every mood, day and situation.
               </p>
-              <a className="btn" href="#">EXPlORE THE COLLECTION</a>
+              <a className="btn" href="#">
+                EXPlORE THE COLLECTION
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

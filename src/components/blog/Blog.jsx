@@ -1,10 +1,10 @@
-import React from 'react'
-import "./Blog.scss"
+import React from "react";
+import "./Blog.scss";
 import "/public/critical.scss";
 
 export default function Blog() {
   return (
-<section class="section">
+    <section class="section">
       <div class="container">
         <div class="blog">
           <h2>BLOG</h2>
@@ -49,5 +49,5 @@ export default function Blog() {
         </div>
       </div>
     </section>
-  )
+  );
 }
