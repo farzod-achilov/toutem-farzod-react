@@ -1,6 +1,5 @@
 import React from "react";
 import "./Blog.scss";
-import "/public/critical.scss";
 
 export default function Blog() {
   return (
